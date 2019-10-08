@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-swiper":"/components/x-swiper/x-swiper",
+    "x-add-cart":"./cc/x-add-cart/x-add-cart"
+  }
+}

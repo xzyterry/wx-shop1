@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <!-- 1.轮播图图片-->
+  <x-swiper class="sub-swiper" list="{{product.images}}" />
+  <!-- 2.描述-->
+  <view class="title">{{product.title}}</view>
+  <view class="price">
+    <image class="icon-price" src="../../assets/icon/price.png" mode="aspectFit" />
+    <text class="text-price">{{product.price}}</text>
+  </view>
+  <!-- 3.加入购物车-->
+  <x-add-cart pid="{{pid}}" />
+</view>

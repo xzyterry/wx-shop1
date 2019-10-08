@@ -1,0 +1,25 @@
+/* pages/detail/detail.wxss */
+
+.sub-swiper swiper {
+  height: 800rpx;
+}
+
+.price {
+  margin-top: 20rpx;
+}
+
+.price {
+  font-size: 26rpx;
+}
+
+.icon-price {
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 6rpx 0 10rpx;
+  position: relative;
+  top: 4rpx;
+}
+
+.text-price {
+  color: #ff5777;
+}

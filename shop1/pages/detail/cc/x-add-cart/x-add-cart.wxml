@@ -1,0 +1,13 @@
+<!--pages/detail/cc/x-add-cart/x-add-cart.wxml-->
+<view class="container">
+
+  <!-- 1.购物车 -->
+  <view class="">
+    <image class="icon-cart" src="/assets/icon/cart.png" mode="aspectFit"></image>
+  </view>
+  <view class="item">
+    <view class="btn-add" bindtap="addCart" data-pid="{{pid}}">加入购物车</view>
+  </view>
+  <!-- 2.立即加入 -->
+
+</view>

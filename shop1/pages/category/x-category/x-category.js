@@ -38,6 +38,14 @@ Component({
         cname: "分类3"
       }, {
         cname: "分类4"
+      }, {
+        cname: "分类1"
+      }, {
+        cname: "分类2"
+      }, {
+        cname: "分类3"
+      }, {
+        cname: "分类4"
       }, ]
     }
   },

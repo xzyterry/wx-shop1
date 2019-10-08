@@ -1,6 +1,6 @@
 <!--components/x-good-item/x-good-item.wxml-->
 
-<view class="good-item">
+<view class="good-item" bindtap='itemClick'>
   <!-- 1.图片 -->
   <image src="{{goodsitem.image}}" mode='widthFix'></image>
 

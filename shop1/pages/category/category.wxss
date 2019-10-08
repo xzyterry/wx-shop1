@@ -1,6 +1,7 @@
 /* pages/category/category.wxss */
+
 .category {
-  height: 100%;
+  height: 1310rpx;
   display: flex;
 }
 
@@ -12,14 +13,10 @@
   width: 80%;
 }
 
-.fixed{
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  background: #fff;
+.fixed {
+  overflow-y: auto;
 }
 
-.fixed2{
-   margin-left: 20%;
+.fixed2 {
+  overflow-y: auto;
 }
