@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view>
+  <!-- 轮播图 -->
+  <x-swiper list="{{banners}}"></x-swiper>
+
+  <!-- 推荐数据 -->
+  <recommand list="{{recommands}}"></recommand>
+
+  <!-- 滑动模块 -->
+  <x-tab-control class="fixed"></x-tab-control>
+
+  <block>
+    <x-goods></x-goods>
+  </block>
+</view>

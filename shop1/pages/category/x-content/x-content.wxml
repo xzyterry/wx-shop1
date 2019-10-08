@@ -1,0 +1,4 @@
+<!--pages/category/x-content/x-content.wxml-->
+<view class="content">
+  <x-goods list="{{goods}}"></x-goods>
+</view>

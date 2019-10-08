@@ -1,0 +1,14 @@
+<!--components/x-good-item/x-good-item.wxml-->
+
+<view class="good-item">
+  <!-- 1.图片 -->
+  <image src="{{goodsitem.image}}" mode='widthFix'></image>
+
+  <!-- 2.描述 价格 ... -->
+  <view class="good-info">
+    <view class="good-title">{{goodsitem.title}}</view>
+    <view class="good-price">
+      <text>￥ {{goodsitem.price}}</text>
+    </view>
+  </view>
+</view>

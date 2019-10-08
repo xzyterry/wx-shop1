@@ -1,0 +1,12 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+
+  <!-- 分类 -->
+  <x-category class="fixed"
+              list="{{categories}}"
+              bind:contentFlush="contentFlush"/>
+
+  <!-- 内容 -->
+  <x-content class="fixed2" list="{{goods}}"/>
+
+</view>

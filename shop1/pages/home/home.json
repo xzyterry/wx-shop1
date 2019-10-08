@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "x-swiper":"/components/x-swiper/x-swiper",
+    "recommand":"./cc/recommand",
+    "x-tab-control":"/components/x-tab-control/x-tab-control",
+    "x-goods":"/components/x-goods/x-goods"
+  },
+  "navigationBarTitleText": "首页"
+}

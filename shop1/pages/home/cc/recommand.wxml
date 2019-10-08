@@ -1,0 +1,9 @@
+<!--pages/home/cc/recommand.wxml-->
+  <view class="recommand">
+    <blcok wx:for="{{list}}" wx:key="{{index}}">
+      <view class="recommand-item" >
+        <image src="{{item.image}}"></image>
+        <view>{{item.title}}</view>
+      </view>
+    </blcok>
+  </view>

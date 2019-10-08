@@ -1,0 +1,24 @@
+/* pages/home/cc/recommand.wxss */
+
+.recommand {
+  display: flex;
+  margin-top: 50rpx;
+  border-bottom: 16rpx solid #eee;
+  padding-bottom: 30rpx
+}
+
+.recommand-item {
+  flex: 1;
+  text-align: center;
+  margin-left: 22rpx;
+}
+
+.recommand-item image{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+} 
+
+.recommand-item view{
+  font-size: 30rpx
+}

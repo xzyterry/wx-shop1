@@ -1,0 +1,25 @@
+/* pages/category/category.wxss */
+.category {
+  height: 100%;
+  display: flex;
+}
+
+.category x-category {
+  width: 20%;
+}
+
+.category x-content {
+  width: 80%;
+}
+
+.fixed{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #fff;
+}
+
+.fixed2{
+   margin-left: 20%;
+}

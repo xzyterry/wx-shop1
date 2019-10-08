@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-category": "./x-category/x-category",
+    "x-content": "./x-content/x-content"
+  }
+}
