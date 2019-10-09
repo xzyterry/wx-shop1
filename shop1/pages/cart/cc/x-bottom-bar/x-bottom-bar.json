@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "x-checkbox-icon":"/components/x-checkbox-icon/x-checkbox-icon"
+  }
+}

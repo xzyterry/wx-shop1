@@ -1,0 +1,2 @@
+<!--components/x-checkbox-icon/x-checkbox-icon.wxml-->
+<icon class='icon' type='success' size='50rpx' style='border-color:{{isChecked?"#ff5777":"#aaa"}}' color='{{isChecked ? "#ff5777":"#aaa"}}' />
