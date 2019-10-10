@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -34,6 +34,63 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    cartList: [{
+      pid: 1,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 2,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 3,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 4,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 5,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 6,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 7,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, {
+      pid: 8,
+      image: "/assets/images/girl5.jpg",
+      title: "2019最新款",
+      desc: "2019最新款2019最新款2019最新款2019最新款",
+      price: 30,
+      count: 2
+    }, ]
   }
 })

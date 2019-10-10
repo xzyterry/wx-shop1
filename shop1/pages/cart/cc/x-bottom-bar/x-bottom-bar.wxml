@@ -1,7 +1,7 @@
 <!--pages/cart/cc/x-bottom-bar/x-bottom-bar.wxml-->
 <view class='bottom-bar'>
   <view class='checkbox'>
-    <x-checkbox-icon icon="icon" isChecked="{{selected}}" />
+    <x-checkbox-icon icon="icon" isChecked="{{selected}}" bindtap='onCheckClick' />
     <view>全选</view>
     
   </view>

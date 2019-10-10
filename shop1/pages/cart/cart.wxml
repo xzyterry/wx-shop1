@@ -6,5 +6,5 @@
     </block>
   </scroll-view>
 
-  <x-bottom-bar class="bottom-bar" selected="{{isSelectAll}}" total_price="{{totalPrice}}" couter="{{totalCount}}" bindtap="onSelectAll" />
+  <x-bottom-bar class="bottom-bar" selected="{{isSelectAll}}" total_price="{{totalPrice}}" counter="{{totalCount}}" bindtap="onSelectAll" />
 </view>

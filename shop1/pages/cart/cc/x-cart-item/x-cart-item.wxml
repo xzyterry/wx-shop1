@@ -1,7 +1,7 @@
 <!--pages/cart/cc/x-cart-item/x-cart-item.wxml-->
 <view class='item-container'>
   <view class='item-checkbox'>
-    <x-checkbox-icon />
+    <x-checkbox-icon bindtap='onCheckClick' isChecked="{{item.isChecked}}" data-index="{{index}}"/>
   </view>
   <view class='item-img'>
     <image src='{{item.image}}'></image>
