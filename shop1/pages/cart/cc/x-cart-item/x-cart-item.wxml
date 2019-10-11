@@ -1,11 +1,13 @@
 <!--pages/cart/cc/x-cart-item/x-cart-item.wxml-->
-<view class='item-container'>
+<view class='item-container' style='{{item.txtStyle}}'>
   <view class='item-checkbox'>
-    <x-checkbox-icon bindtap='onCheckClick' isChecked="{{item.isChecked}}" data-index="{{index}}"/>
+    <x-checkbox-icon bindtap='onCheckClick' isChecked="{{item.isChecked}}" data-index="{{index}}" />
   </view>
+
   <view class='item-img'>
     <image src='{{item.image}}'></image>
   </view>
+  
   <view class='item-info'>
     <view class='title'>{{item.title}}</view>
     <view class='desc'>{{item.desc}}</view>
@@ -14,5 +16,4 @@
       <view class='count'>x {{item.count}}</view>
     </view>
   </view>
-
 </view>

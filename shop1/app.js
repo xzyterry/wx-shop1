@@ -41,56 +41,64 @@ App({
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 2,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 3,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 4,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 5,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 6,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 7,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, {
       pid: 8,
       image: "/assets/images/girl5.jpg",
       title: "2019最新款",
       desc: "2019最新款2019最新款2019最新款2019最新款",
       price: 30,
-      count: 2
+      count: 2,
+      txtStyle: ""
     }, ]
   }
 })

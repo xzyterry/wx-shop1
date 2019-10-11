@@ -5,6 +5,7 @@
   border: 1px solid #eee;
   align-items: center;
   padding: 15rpx;
+  position: relative;
 }
 
 .item-checkbox {
@@ -48,4 +49,3 @@
   color: #ff5777;
   justify-content: space-between
 }
-

@@ -36,6 +36,6 @@ Component({
 
       // 3.通过全局回调修改checkbox
       app.changeGoodState(index, item)
-    }
+    },
   }
 })

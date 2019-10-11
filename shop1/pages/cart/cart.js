@@ -10,7 +10,8 @@ Page({
     isSelectAll: false,
     totalPrice: 0,
     totalCount: 0,
-    list: []
+    list: [],
+    delBtnWidth: 150 //删除按钮宽度单位（rpx）
   },
 
   /**
@@ -50,7 +51,7 @@ Page({
       title: `购物车(${this.data.list.length})`,
     })
   },
-  
+
   // 点击全选按钮
   onSelectAll() {
     this.data.list.forEach(item => {
@@ -84,6 +85,47 @@ Page({
       totalCount,
       totalPrice
     })
-  }
+  },
 
+  touchS(e) {
+    //判断是否只有一个触摸点
+    if (e.touches.length == 1) {
+      this.setData({
+        //记录触摸起始位置的X坐标
+        startX: e.touches[0].clientX
+      });
+    }
+  },
+  touchM: function (e) {
+
+    var that = this
+    if (e.touches.length == 1) {
+      //记录触摸点位置的X坐标
+      var moveX = e.touches[0].clientX;
+      //计算手指起始点的X坐标与当前触摸点的X坐标的差值
+      var disX = that.data.startX - moveX;
+      //delBtnWidth 为右侧按钮区域的宽度
+      var delBtnWidth = that.data.delBtnWidth;
+      var txtStyle = "";
+      if (disX == 0 || disX < 0) {//如果移动距离小于等于0，文本层位置不变
+        txtStyle = "left:0rpx";
+      } else if (disX > 0) {//移动距离大于0，文本层left值等于手指移动距离
+        txtStyle = "left:-" + disX + "rpx";
+        if (disX >= delBtnWidth) {
+          //控制手指移动距离最大值为删除按钮的宽度
+          txtStyle = "left:-" + delBtnWidth + "rpx";
+        }
+      }
+      //获取手指触摸的是哪一个item
+      var index = e.currentTarget.dataset.index;
+      var list = that.data.list;
+      //将拼接好的样式设置到当前item中
+      list[index].txtStyle = txtStyle;
+      //更新列表的状态
+      this.setData({
+        list: list
+      });
+      console.log(list[index].txtStyle)
+    }
+  },
 })
